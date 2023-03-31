@@ -1,5 +1,5 @@
 import { MoviesGrid } from "../components/MoviesGrid"
 
-export function LandingPage(){
+export function LandingPage() {
     return <MoviesGrid />;
 }

@@ -4,8 +4,19 @@ font-size: 1.2rem;
 color: greenyellow ;
 text-align: center;
 }
+.movieCard:hover{
+    opacity: 0.8;
+}
+
 
 .movieImage {
     border-radius: 10px;
     background-color: aqua;
+}
+
+@media (max-width: 560px) {
+    .movieImage {
+        width: 90%;
+        height: auto;
+    }
 }
